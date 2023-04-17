@@ -1,6 +1,7 @@
 :root {
     --cor_de_fundo:#FFFF8F	;
-    --cor_primaria_fonte:#E49B0F;
+    --cor_primaria_fonte:#221703;
+    --cor_mais_escura: #E49B0F;
 }
 * {
     margin: 0;
@@ -11,7 +12,33 @@
     width: 100%;
     height: 100px;
     background-color:var(--cor_de_fundo);
+    padding: 20px;
 }
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+  }
+  
+  nav li {
+    display: inline-block;
+    margin: 0 10px;
+  }
+  
+  nav a {
+    color:var(--cor_de_fundo);
+    display: inline-block;
+    padding: 10px 20px;
+    text-decoration: none;
+  }
+  
+  nav a:hover {
+    background-color:var(--cor_de_fundo);
+    color:var(--cor_mais_escura);
+  }
+
 .rodape {
     background-color: var(--cor_de_fundo);
     width: 100%;
