@@ -2,6 +2,8 @@
     --cor_de_fundo:#FFFF8F	;
     --cor_primaria_fonte:#221703;
     --cor_mais_escura: #E49B0F;
+    --cor_para_hover:  #ffcc66;
+
 }
 * {
     margin: 0;
@@ -28,15 +30,15 @@ nav ul {
   }
   
   nav a {
-    color:var(--cor_de_fundo);
+    color:var(--cor_mais_escura);
     display: inline-block;
     padding: 10px 20px;
     text-decoration: none;
   }
   
   nav a:hover {
-    background-color:var(--cor_de_fundo);
-    color:var(--cor_mais_escura);
+    background-color: var(--cor_para_hover);
+    color: var(--cor_primaria_fonte);
   }
 
 .rodape {
