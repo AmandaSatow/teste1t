@@ -3,6 +3,7 @@
     --cor_primaria_fonte:#221703;
     --cor_mais_escura: #E49B0F;
     --cor_para_hover:  #ffcc66;
+    --cor_para_back:#996600;
 
 }
 * {
@@ -11,7 +12,7 @@
 
 }
 body {
-    background-color: red;
+    background-color: var(--cor_para_back);
   }
   
 .banner{
@@ -26,7 +27,7 @@ nav ul {
     margin: 0;
     padding: 0;
     text-align: center;
-    background-color: #ffcc66;
+    background-color: var(--cor_mais_escura);
     color: #221703;
   }
   
@@ -36,7 +37,7 @@ nav ul {
   }
   
   nav a {
-    color:var(--cor_mais_escura);
+    color: var(--cor_para_back);
     display: inline-block;
     padding: 10px 20px;
     text-decoration: none;
