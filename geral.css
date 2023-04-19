@@ -12,6 +12,10 @@
 
 }
 
+main {
+  padding-top: 100px;
+}
+
 .index {
   overflow: hidden;
 }
