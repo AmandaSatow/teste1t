@@ -11,6 +11,9 @@
     padding: 0;
 
 }
+body {
+  overflow: hidden;
+}
 
 .banner{
     width: 100%;
@@ -23,9 +26,11 @@ nav ul {
     list-style: none;
     margin: 0;
     padding: 0;
-    text-align: center;
     background-color: var(--cor_mais_escura);
     color: #221703;
+      position: relative;
+      top: 50px;
+    
   }
   
   nav li {
