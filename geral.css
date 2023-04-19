@@ -11,7 +11,8 @@
     padding: 0;
 
 }
-body {
+
+.index {
   overflow: hidden;
 }
 
@@ -28,6 +29,7 @@ nav ul {
     padding: 0;
     background-color: var(--cor_mais_escura);
     color: #221703;
+    text-align: center;
       position: relative;
       top: 50px;
     
